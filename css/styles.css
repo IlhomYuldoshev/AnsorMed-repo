@@ -48,6 +48,7 @@ li {
   border: 2px solid transparent;
   transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease;
 }
+/* main link */
 .main-link:hover {
   background-color: #fff;
   color: #de2e54;
