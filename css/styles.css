@@ -70,14 +70,20 @@ li {
   align-items: center;
 }
 .site-logo-link {
+  width: 185px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.site-logo-link img{
   margin-right: 16px;
   transition: opacity 0.4s ease;
 }
-.site-logo-link:active {
+.site-logo-link img:active {
   opacity: 0.6;
 }
-.site-logo-link + a {
-  text-decoration: none;
+.site-logo-link span {
   color: #222;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 600;
@@ -85,11 +91,11 @@ li {
   font-size: 24px;
   transition: color 0.4s ease, opacity 0.4s ease;
 }
-.site-logo-link + a:hover {
+.site-logo-link span:hover {
   color: #de2e54;
   transition: opacity 0.4s ease;
 }
-.site-logo-link + a:active {
+.site-logo-link span:active {
   opacity: 0.6;
 }
 .site-header-left {
