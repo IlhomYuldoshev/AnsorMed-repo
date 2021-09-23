@@ -5,6 +5,9 @@
   outline: 1px dotted #0eb4c1;
   outline-offset: 3px;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   padding: 0;
   margin: 0;
@@ -76,7 +79,7 @@ li {
   align-items: center;
   text-decoration: none;
 }
-.site-logo-link img{
+.site-logo-link img {
   margin-right: 16px;
   transition: opacity 0.4s ease;
 }
@@ -303,6 +306,9 @@ li {
   color: #fff;
 }
 .site-footer-left a + a:active {
+  color: #fff;
+}
+.site-footer-left span {
   color: #fff;
 }
 .site-footer-list {
